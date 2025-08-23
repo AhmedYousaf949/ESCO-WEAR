@@ -1,0 +1,108 @@
+ body {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #1a1a1a;
+        }
+        .logo {
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            color: #fff;
+        }
+        .logo:hover {
+            text-shadow: beige 2px 2px 4px;
+            text-decoration: none;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+        }
+        nav a:hover {
+            color: #ccc;
+            font-size: 1.1em;
+            transition: font-size 0.3s ease;
+        }
+        .auth-buttons a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 15px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            padding: 5px 15px;
+            border: 1px solid #fff;
+            border-radius: 20px;
+        }
+        .auth-buttons a:hover {
+            background-color: #fff;
+            color: #1a1a1a;
+            box-shadow: antiquewhite 0 4px 8px;
+        }
+        .hero {
+            padding: 50px 20px;
+            background-color: #1a1a1a;
+        }
+        .hero h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 48px;
+            margin: 0;
+            line-height: 1.2;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #ccc;
+            max-width: 600px;
+            margin: 20px auto;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+        }
+        .hero .new-collection {
+            font-size: 14px;
+            color: #888;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            background-color: #fff;
+            color: #1a1a1a;
+            border: none;
+            padding: 10px 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .hero button:hover {
+            background-color: #ccc;
+            box-shadow: antiquewhite 0 4px 8px;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 0;
+        }
+        .gallery img {
+            width: 200px;
+            height: 300px;
+            margin: 0 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: antiquewhite 0 4px 8px;
+        }
