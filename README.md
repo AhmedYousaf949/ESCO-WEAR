@@ -1,3 +1,36 @@
+# 👕 Esco Wear  
+
+Esco Wear is a modern clothing brand website built with **HTML, CSS, and JavaScript**.  
+It provides a clean, stylish, and responsive design suitable for fashion and e-commerce brands.  
+
+---
+
+## 🚀 Features
+- Fully responsive layout (mobile, tablet, desktop)  
+- Modern and minimalist UI design  
+- Navigation bar with brand logo  
+- Dedicated sections for showcasing products  
+- Linked CSS (`style.css`) and JS (`main.js`) files  
+- Easy customization for any clothing brand  
+
+---
+
+## 📂 Project Structure
+
+---
+
+## 🛠️ Technologies will be Used in Future
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**  
+
+
+---
+
+## ⚡ How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AhmedYousaf949/Esco-Wear.git
 
 ---
 
@@ -48,7 +81,7 @@ Esco-Wear/
 ## ⚡ How to Use
 1. Clone the repository:
    \`\`\`bash
-   git clone https://github.com/YourUsername/Esco-Wear.git
+   git clone https://github.com/AhmedYousaf949/Esco-Wear.git
    \`\`\`
 2. Open \`index.html\` in your browser.  
 3. Customize \`style.css\` and \`main.js\` to fit your brand.  
@@ -61,14 +94,14 @@ You can publish this project using **GitHub Pages**:
 2. Select branch \`main\` and folder \`/root\`.  
 3. Save, and your site will be live at:  
    \`\`\`
-   https://yourusername.github.io/Esco-Wear/
+   https://AhmedYousaf949.github.io/Esco-Wear/
    \`\`\`  
 
 ---  
 
 ## 👤 Author
 - **Muhammad Ahmed Yousaf**  
-- GitHub: [@YourUsername](https://github.com/AhmedYousaf949)  
+- GitHub: [@AhmedYousaf949](https://github.com/AhmedYousaf949)  
 
 ---  
 " > README.md
