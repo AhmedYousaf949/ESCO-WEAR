@@ -71,13 +71,6 @@ Esco-Wear/
 - **CSS3**  
 - **JavaScript**  
 
----  
-
-## 📸 Preview
-(Add screenshots of your homepage or UI here, for example \`Photos/preview.png\`)  
-
----  
-
 ## ⚡ How to Use
 1. Clone the repository:
    \`\`\`bash
