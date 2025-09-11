@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header class="main-header">
-        <div class="logo-section">
-            <div class="logo-icon">
-                <img src="Photos/Logo 1.png" alt="Logo" style="width:32px; height:32px; object-fit:contain; border-radius:8px;" />
-            </div>
-            <span class="logo-text">ESCO</span>
-        </div>
-        <nav class="nav-menu">
-            <a href="#" class="nav-link"><span class="nav-icon"><i class="fa-solid fa-house"></i></span> Home</a>
-            <a href="#" class="nav-link"><span class="nav-icon"><i class="fa-solid fa-cube"></i></span> Categories</a>
-            <a href="#" class="nav-link"><span class="nav-icon"><i class="fa-solid fa-wallet"></i></span> Sale</a>
-            <a href="#" class="nav-link"><span class="nav-icon"><i class="fa-solid fa-face-smile"></i></span> About us</a>
-        </nav>
-        <div class="auth-buttons">
-            <a href="#" class="login-btn">Login</a>
-            <a href="#" class="signup-btn">Sign Up</a>
-        </div>
+    <header class="esco-header">
+      <div class="esco-brand">
+        <img src="Photos/Logo 1.png" alt="Logo" style="width:32px; height:32px; object-fit:contain; border-radius:8px; vertical-align:middle; margin-right:12px;" />
+        Escoo Wear
+      </div>
+      <nav class="esco-nav">
+        <a href="#">MEN</a>
+        <a href="#">WOMEN</a>
+        <a href="#">KIDS &amp; BABY</a>
+        <a href="#">HOME</a>
+        <a href="#">DISCOVER</a>
+      </nav>
+      <div class="esco-icons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+      </div>
     </header>
     <section class="hero-video-section">
         <video class="hero-video" autoplay loop muted playsinline webkit-playsinline>
@@ -45,7 +46,7 @@
       </div>
     </section>
     <!-- Ralph Lauren Hero Video Section (now after Puma video) -->
-    <section class="rl-hero-video-section">
+    <!-- <section class="rl-hero-video-section">
       <div class="rl-video-container">
         <video id="rlHeroVideo" playsinline muted loop autoplay>
           <source src="//video.ralphlauren.com/v2/2025/08/20250819-homepage/Video-DSK.mp4" type="video/mp4" media="(min-width: 768px)">
@@ -61,7 +62,7 @@
           </button>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="rl-runway-hero-section">
       <div class="rl-runway-video-container">
         <video id="rlRunwayVideo" playsinline muted loop autoplay>
@@ -76,6 +77,23 @@
           <a href="https://www.ralphlauren.global/pk/en/spring-runway/70702311?ab=EU_LuxSpringRunway_Slot_0_S1_L1_SHOP" class="rl-runway-btn"><span>Explore Now</span></a>
         </div>
       </div> -->
+    </section>
+     <section class="rl-hero-video-section">
+      <div class="rl-video-container">
+        <video id="rlHeroVideo" playsinline muted loop autoplay>
+          <source src="//video.ralphlauren.com/v2/2025/08/20250819-homepage/Video-DSK.mp4" type="video/mp4" media="(min-width: 768px)">
+          <source src="//video.ralphlauren.com/v2/2025/08/20250819-homepage/Video-MOB.mp4" type="video/mp4" media="(max-width: 767px)">
+          Your browser does not support the video tag.
+        </video>
+        <div class="rl-video-controls">
+          <button class="rl-control-btn" id="rlPlayPauseBtn">
+            <i class="fas fa-pause"></i>
+          </button>
+          <!-- <button class="rl-control-btn" id="rlMuteUnmuteBtn">
+            <i class="fas fa-volume-mute"></i>
+          </button> -->
+        </div>
+      </div>
     </section>
     <script src="main.js"></script>
 </body>

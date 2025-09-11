@@ -1,10 +1,19 @@
+/* --- Updated Esco Color Scheme (Earthy Palette) --- */
+:root {
+    --esco-peach: #E9B48A;
+    --esco-mauve: #956959;
+    --esco-brown: #5C352C;
+    --esco-rust: #AF4F2E;
+    --esco-dark: #2A1713;
+}
+
 /* Puma Hero Video Section */
 .hero-video-section {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: relative;
-    background: #000;
+    background: var(--esco-mauve);
 }
 .hero-video {
     width: 100vw;
@@ -36,15 +45,13 @@
         object-fit: contain;
     }
 }
-/* 
+
 /* Ralph Lauren Hero Video Section */
 .rl-hero-video-section {
     position: relative;
     margin: 0 auto;
     width: 100vw;
     max-width: 1909px;
-    /* border-radius: 12px; */
-
     overflow-x: hidden;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
     background: #000;
@@ -134,7 +141,7 @@
 .rl-runway-overlay {
     position: absolute;
     left: 50%;
-    bottom: 40px;
+    bottom: 95px;
     transform: translateX(-50%);
     text-align: center;
     color: #fff;
@@ -142,7 +149,7 @@
     max-width: 600px;
     margin: 0 auto;
     z-index: 2;
-    background: rgba(0,0,0,0.35);
+    background: rgba(149, 105, 89, 0.35); /* semi-transparent mauve */
     padding: 32px 16px 24px 16px;
     border-radius: 24px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.12);
@@ -159,6 +166,7 @@
     letter-spacing: 2px;
     margin-bottom: 12px;
     text-transform: uppercase;
+    color: var(--esco-brown);
 }
 .rl-runway-dek {
     font-size: 1.1rem;
@@ -168,8 +176,8 @@
 }
 .rl-runway-btn {
     display: inline-block;
-    background: #fff;
-    color: #111;
+    background: var(--esco-peach);
+    color: var(--esco-dark);
     font-weight: 600;
     font-size: 1.1rem;
     padding: 14px 38px;
@@ -179,8 +187,8 @@
     transition: background 0.2s, color 0.2s;
 }
 .rl-runway-btn:hover {
-    background: #e6f94f;
-    color: #111;
+    background: var(--esco-rust);
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -212,13 +220,68 @@
     }
 }
 
-/* Layout and header styles (keep only necessary rules) */
+/* Layout and header styles */
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: #e9eaf0;
     font-family: condensed, 'Arial Narrow', 'Helvetica Neue Condensed', Arial, Helvetica, sans-serif;
+}
+.esco-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--esco-dark);
+    padding: 0 48px;
+    height: 80px;
+}
+.esco-header .esco-brand {
+    flex: 1;
+    color: var(--esco-peach);
+    font-size: 2rem;
+    font-family: condensed, 'Arial Narrow', 'Helvetica Neue Condensed', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3em;
+}
+.esco-header .esco-nav {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.esco-header .esco-nav a {
+    color: var(--esco-mauve);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+}
+.esco-header .esco-nav a:hover {
+    color: var(--esco-rust);
+}
+.esco-header .esco-icons {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+}
+.esco-header .esco-icons i, .esco-header .esco-icons svg {
+    color: var(--esco-peach);
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.esco-header .esco-icons i:hover,
+.esco-header .esco-nav svg:hover {
+    color: var(--esco-rust);
+}
+.rlc-all-text-center {
+    text-align: center;
+}
+
+/* Optional: Add spacing and max-width for signature block */
+#rlc-signature-block {
+    margin: 32px auto;
+    max-width: 700px;
 }
 .main-header {
     position: absolute;
@@ -296,8 +359,8 @@ body {
 .login-btn, .signup-btn {
     padding: 10px 24px;
     border-radius: 24px;
-    background: #e6f94f;
-    color: #111;
+    background: var(--esco-peach);
+    color: var(--esco-dark);
     font-weight: 600;
     font-size: 1rem;
     text-decoration: none;
@@ -305,8 +368,8 @@ body {
     transition: background 0.2s, color 0.2s;
 }
 .login-btn:hover, .signup-btn:hover {
-    background: #d4e63b;
-    color: #111;
+    background: var(--esco-rust);
+    color: #fff;
     transform: scale(1.05);
 }
 
@@ -323,4 +386,4 @@ body {
         opacity: 1;
         transform: translateX(-50%) translateY(0) scale(1);
     }
-} 
+}

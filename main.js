@@ -16,16 +16,16 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Mute/Unmute functionality
-    muteUnmuteBtn.addEventListener('click', function() {
-        if (video.muted) {
-            video.muted = false;
-            muteUnmuteBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
-        } else {
-            video.muted = true;
-            muteUnmuteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
-        }
-    });
+    // // Mute/Unmute functionality
+    // muteUnmuteBtn.addEventListener('click', function() {
+    //     if (video.muted) {
+    //         video.muted = false;
+    //         muteUnmuteBtn.innerHTML = '<i class="fas fa-volume-up"></i>';
+    //     } else {
+    //         video.muted = true;
+    //         muteUnmuteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
+    //     }
+    // });
 
     // Update button when video ends
     video.addEventListener('ended', function() {
