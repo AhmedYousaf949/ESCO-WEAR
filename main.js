@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     if (!video) return;
 
-    // Play/Pause functionality
     playPauseBtn.addEventListener('click', function() {
         if (video.paused) {
             video.play();
@@ -27,12 +26,10 @@ document.addEventListener('DOMContentLoaded', function() {
     //     }
     // });
 
-    // Update button when video ends
     video.addEventListener('ended', function() {
         playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
     });
 
-    // Responsive video source handling
     function updateVideoSource() {
         if (window.innerWidth < 768) {
             video.src = "//video.ralphlauren.com/v2/2025/08/20250819-homepage/Video-MOB.mp4";
