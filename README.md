@@ -3,6 +3,8 @@
 Esco Wear is a modern clothing brand website built with **HTML, CSS, and JavaScript**.  
 It provides a clean, stylish, and responsive design suitable for fashion and e-commerce brands.  
 
+Link: https://escowears.com/
+
 ---
 
 ## 🚀 Features
@@ -70,13 +72,6 @@ Esco-Wear/
 - **HTML5**  
 - **CSS3**  
 - **JavaScript**  
-
----  
-
-## 📸 Preview
-(Add screenshots of your homepage or UI here, for example \`Photos/preview.png\`)  
-
----  
 
 ## ⚡ How to Use
 1. Clone the repository:
